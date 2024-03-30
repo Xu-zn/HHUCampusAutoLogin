@@ -21,13 +21,15 @@ pip install -r requirements.txt
 
 **打包（如果需要）** 
 
-`pyinstaller -Fw connect.py` 
+```bat
+pyinstaller -Fw connect.py
+``` 
 
 `-F` 打包成单文件
 
 `-w` 隐藏黑黑的控制台
 
-将`dist/connect.exe`文件复制到想要放的地方，别忘了config.toml也要复制过去
+将`dist/connect.exe`文件复制到想要放的地方，别忘了`config.toml`也要复制过去
 
 **配置任务计划（如果需要）**
 
@@ -39,5 +41,10 @@ pip install -r requirements.txt
 6. 完成
 
 > 程序中探测网络与win10的探测方式一致；
-> 如果使用`-w`打包，停止程序的时候需要在任务管理器中停止（占用较大的那个）
-> 另外，也可以在存放exe目录下使用powershell，输入`Stop-Process -Id (Get-Content pid)`
+> 
+> 如果使用`-w`打包，停止程序的时候需要在任务管理器中停止（占用较大的那个）;
+> 
+> 另外，也可以在存放exe目录下使用powershell，输入
+> ```ps
+Stop-Process -Id (Get-Content pid)
+```
