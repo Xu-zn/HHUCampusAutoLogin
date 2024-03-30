@@ -7,7 +7,7 @@ service = ""
 #  _service_2：中国电信-常州(CTCC NET-CZ)
 #  _service_3: 中国联通-常州(CUCC NET-CZ)
 
-portal = "http://eportal.hhu.edu.cn"
+portal = "http://10.96.0.155"
 
 [detect]
 detect_url = "http://www.msftncsi.com/ncsi.txt"
