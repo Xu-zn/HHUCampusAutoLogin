@@ -45,6 +45,6 @@ pyinstaller -Fw connect.py
 > 如果使用`-w`打包，停止程序的时候需要在任务管理器中停止（占用较大的那个）;
 > 
 > 另外，也可以在存放exe目录下使用powershell，输入
-> ```ps
+```ps
 Stop-Process -Id (Get-Content pid)
 ```
