@@ -1,6 +1,8 @@
 # HHUCampusAutoLogin
 基于playwright实现的自动登录河海校园网
 
+> python版本，>= 3.8应该都行，我是用的3.10
+
 **安装依赖**
 
 ```bat
