@@ -1,0 +1,15 @@
+[login]
+username = ""
+password = ""
+service = ""
+#  _service_0：校园网(Campus NET)
+#  _service_1：中国移动(CMCC NET)
+#  _service_2：中国电信-常州(CTCC NET-CZ)
+#  _service_3: 中国联通-常州(CUCC NET-CZ)
+
+portal = "http://eportal.hhu.edu.cn"
+
+[detect]
+detect_url = "http://www.msftncsi.com/ncsi.txt"
+detect_value = "Microsoft NCSI"
+detect_interval = 20
